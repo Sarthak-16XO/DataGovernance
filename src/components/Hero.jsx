@@ -6,14 +6,9 @@ import { Link } from "react-router-dom";
 const Hero = () => {
     return (
         <section className="bg-white dark:bg-gray-900" >
-            
-            <div className="grid z-50 max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-                
-                <div className="mr-auto place-self-center lg:col-span-7" 
+            <div className="flex z-50 max-w-screen-xl px-2 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div className="text-center md:mr-auto place-self-center lg:col-span-7"
                 >
-                    <div className="main">
-                    <div className="gradient"></div>
-                </div>
                     <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"><span className="bg-gradient-to-r from-purple-500 via-cyan-500 to-blue-600 bg-clip-text text-transparent">InfoGovern Solutions</span>: Empowering Businesses with Robust Data Governance Solutions</h1>
                     <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-lg dark:text-gray-400">Delivering tailor-made data governance solutions for businesses of all sizes, ensuring compliance, security, and performance</p>
                     <Link to="/dashboard" className="cursor-pointer">
